@@ -19,7 +19,8 @@ class ShoppingCart {
     Object.keys(this.activeCart)
       .sort()
       .forEach(item => console.log(`${item}:`, this.activeCart[item]));
-    console.log('------------------------------------', '\n');
+    console.log('------------------------------------');
+    console.log('\n');
   }
 
 }
